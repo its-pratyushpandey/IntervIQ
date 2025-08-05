@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { MarqueImg } from "@/components/marquee-img";
 import { Link } from "react-router-dom";
 
+
 const HomePage = () => {
   return (
     <div className="flex-col w-full pb-24">
@@ -29,6 +30,7 @@ const HomePage = () => {
           </p>
         </div>
 
+        
         <div className="flex w-full items-center justify-evenly md:px-12 md:py-16 md:items-center md:justify-end gap-12">
           <p className="text-3xl font-semibold text-gray-900 text-center">
             250k+
