@@ -24,12 +24,14 @@ const App = () => {
           <Route index element={<HomePage />} />
         </Route>
 
+        
         {/* authentication layout */}
         <Route element={<AuthenticationLayout />}>
           <Route path="/signin/*" element={<SignInPage />} />
           <Route path="/signup/*" element={<SignUpPage />} />
         </Route>
 
+        
         {/* protected routes */}
         <Route
           element={
@@ -37,6 +39,8 @@ const App = () => {
               <MainLayout />
             </ProtectRoutes>
           }
+
+          
         >
           {/* add all the protect routes */}
           <Route element={<Generate />} path="/generate">
