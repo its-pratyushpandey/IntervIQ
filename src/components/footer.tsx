@@ -41,6 +41,7 @@ const FooterLink: React.FC<FooterLinkProps> = ({ to, children }) => {
   );
 };
 
+
 export const Footer = () => {
   return (
     <div className="w-full bg-black text-gray-300 hover:text-gray-100 py-8">
