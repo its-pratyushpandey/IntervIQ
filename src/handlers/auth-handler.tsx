@@ -41,6 +41,8 @@ const AuthHanlder = () => {
       }
     };
 
+    
+
     storeUserData();
   }, [isSignedIn, user, pathname, navigate]);
 
