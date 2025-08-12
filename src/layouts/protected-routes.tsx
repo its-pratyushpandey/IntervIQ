@@ -5,6 +5,7 @@ import { Navigate } from "react-router-dom";
 const ProtectRoutes = ({ children }: { children: React.ReactNode }) => {
   const { isLoaded, isSignedIn } = useAuth();
 
+  
   if (!isLoaded) {
     return <LoaderPage />;
   }
