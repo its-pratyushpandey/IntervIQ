@@ -7,6 +7,7 @@ import { NavLink } from "react-router-dom";
 import { ProfileContainer } from "./profile-container";
 import { ToggleContainer } from "./toggle-container";
 
+
 const Header = () => {
   const { userId } = useAuth();
 
