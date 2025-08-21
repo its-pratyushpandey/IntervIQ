@@ -15,7 +15,6 @@ export const Dashboard = () => {
   const [interviews, setInterviews] = useState<Interview[]>([]);
   const [loading, setLoading] = useState(false);
   const { userId } = useAuth();
-
   useEffect(() => {
     setLoading(true);
     const interviewQuery = query(
