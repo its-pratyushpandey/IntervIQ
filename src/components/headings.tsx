@@ -1,5 +1,4 @@
 import { cn } from "@/lib/utils";
-
 interface HeadingsProps {
   title: string;
   description?: string;
