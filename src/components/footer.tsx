@@ -8,7 +8,6 @@ interface SocialLinkProps {
   icon: React.ReactNode;
   hoverColor: string;
 }
-
 const SocialLink: React.FC<SocialLinkProps> = ({ href, icon, hoverColor }) => {
   return (
     <a
