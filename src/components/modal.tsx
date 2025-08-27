@@ -25,6 +25,8 @@ const Modal = ({
     }
   };
 
+  
+
   return (
     <Dialog open={isOpen} onOpenChange={onChange}>
       <DialogContent>
