@@ -8,6 +8,7 @@ export interface User {
   updateAt: Timestamp | FieldValue;
 }
 
+
 export interface Interview {
   id: string;
   position: string;
