@@ -5,8 +5,6 @@ import { useAuth, useUser } from "@clerk/clerk-react";
 import { doc, getDoc, serverTimestamp, setDoc } from "firebase/firestore";
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-
-
 const AuthHanlder = () => {
   const { isSignedIn } = useAuth();
   const { user } = useUser();
