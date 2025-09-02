@@ -8,7 +8,6 @@ import {
   getDocs,
   query,
   where,
-  
 } from "firebase/firestore";
 import { useEffect, useMemo, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
