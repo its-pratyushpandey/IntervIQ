@@ -3,7 +3,6 @@ import { PublicLayout } from "@/layouts/public-layout";
 import AuthenticationLayout from "@/layouts/auth-layout";
 import ProtectRoutes from "@/layouts/protected-routes";
 import { MainLayout } from "@/layouts/main-layout";
-
 import HomePage from "@/routes/home";
 import { SignInPage } from "./routes/sign-in";
 import { SignUpPage } from "./routes/sign-up";
