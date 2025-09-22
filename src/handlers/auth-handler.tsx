@@ -8,7 +8,6 @@ import { useLocation, useNavigate } from "react-router-dom";
 const AuthHanlder = () => {
   const { isSignedIn } = useAuth();
   const { user } = useUser();
-
   const pathname = useLocation().pathname;
   const navigate = useNavigate();
 
