@@ -17,6 +17,7 @@ export const Headings = ({
           isSubHeading && "text-lg md:text-xl"
         )}
       >
+        
         {title}
       </h2>
       {description && (
