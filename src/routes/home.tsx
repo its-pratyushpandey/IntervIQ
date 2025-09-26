@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { MarqueImg } from "@/components/marquee-img";
 import { Link } from "react-router-dom";
 const HomePage = () => {
+  
   return (
     <div className="flex-col w-full pb-24">
       <Container>
