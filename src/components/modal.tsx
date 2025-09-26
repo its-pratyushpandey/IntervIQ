@@ -12,6 +12,7 @@ interface ModalProps {
   onClose: () => void;
   children?: React.ReactNode;
 }
+
 const Modal = ({
   title,
   description,
