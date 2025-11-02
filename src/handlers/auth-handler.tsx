@@ -12,7 +12,6 @@ const AuthHanlder = () => {
   const navigate = useNavigate();
 
   const [loading, setLoading] = useState(false);
-
   useEffect(() => {
     const storeUserData = async () => {
       if (isSignedIn && user) {
